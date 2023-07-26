@@ -18,6 +18,7 @@ export default function App() {
 					<label>Your bill </label>
 					<input
 						type="text"
+						inputmode="decimal"
 						placeholder="Your bill "
 						value={bill}
 						onChange={(e) => setBill(Number(e.target.value))}
