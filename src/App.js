@@ -11,7 +11,7 @@ export default function App() {
 		const [bill, setBill] = useState(0);
 		const [tip1, setTip1] = useState(0);
 		const [tip2, setTip2] = useState(0);
-		const tip = (tip1 + tip2) / 2;
+		const tip = ((tip1 + tip2) / 2 / 100)*bill;
 		return (
 			<div>
 				<div>
